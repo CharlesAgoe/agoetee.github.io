@@ -10,6 +10,35 @@ body, html{
     background-size: cover;
     position: relative;
 }
+.thenav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.thenav li {
+    margin-top: 3em;
+}
+
+.thenav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 5px solid white;
+    background-color: none;
+    font-family: 'Gochi Hand', cursive, 'Franklin Gothic';
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.thenav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
 .hero-text {
     text-align: center;
     position: absolute;
